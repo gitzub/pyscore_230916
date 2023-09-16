@@ -5,12 +5,12 @@ from dateutil.relativedelta import relativedelta
 from django.http import HttpResponseBadRequest, JsonResponse
 
 
-# def pyhome(request):
-#     return render(request, "pyhome.html")
-
-
 def pyhome(request):
-    return render(request, "aaatest.html")
+    return render(request, "pyhome.html")
+
+
+# def pyhome(request):
+#     return render(request, "aaatest.html")
 
 
 def gamelist(request):
